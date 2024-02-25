@@ -110,4 +110,4 @@ REST_FRAMEWORK = {
 }
 
 STATIC_URL = 'static_backend/'
-STATIC_ROOT = BASE_DIR / 'static_backend'
+STATIC_ROOT = BASE_DIR / '/var/www/kittygram/static_backend'

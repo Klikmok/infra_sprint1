@@ -1,0 +1,5 @@
+ IP: 84.252.140.228;
+ name_taski: https://niggerfaggot.bounceme.net/;
+ name_kittygram: https://k1ttygram.sytes.net/;
+ login: yc-user;
+ password: Klikmok090807;
