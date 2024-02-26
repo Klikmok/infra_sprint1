@@ -92,14 +92,14 @@ USE_L10N = True
 USE_TZ = True
 
 
-MEDIA_URL = 'media/'
-MEDIA_ROOT = BASE_DIR / '/var/www/kittygram/media/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/var/www/kittygram/media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated', 
+        'rest_framework.permissions.IsAuthenticated',
     ],
 
     'DEFAULT_AUTHENTICATION_CLASSES': [
